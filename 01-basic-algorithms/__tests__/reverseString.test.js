@@ -1,6 +1,6 @@
 'use strict';
-const reverseString = require('../01-basic-algorithms/reverseString.js');
+const reverseString = require('../reverseString');
 
-test('reverseString is a function', () => {
-    expect(typeof reverseString).toBe('function');
+test('Reverses a simple string', () => {
+  expect(reverseString("hello")).toBe("olleh");
 });

@@ -1,1 +1,14 @@
-
+{
+  "name": "fcc-js-certification-ud",
+  "version": "1.0.0",
+  "description": "Portfolio of JavaScript Algorithms and Data Structures from freeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Nikolaos Routsis",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
